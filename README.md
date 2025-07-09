@@ -119,7 +119,7 @@ these two situations.
 
    a) You can use `uv add` which adds the dependency and the source in `pyproject.toml`
    and sets up the environment.  
-   Adding multiple plugins is best done in a single command:
+   Adding multiple plugins should be done in a single command:
    ```bash
    uv add packages/nomad-measurements packages/PLUGIN_B packages/PLUGIN_C
    ```
